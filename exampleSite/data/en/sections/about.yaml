@@ -1,0 +1,55 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: BIM Coordinator | Structural BIM Engineer | BIM Specialist
+
+# a summary about you
+summary: "I am a Master’s-level Structural Engineer with over 3 years of experience delivering BIM solutions. My strengths are building intelligent models and automating workflows to optimize design efficiency, operations, and complex technical problem-solving."
+
+# your social links
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:ng.trieuvy1308@gmail.com"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "tel:0794396293"
+
+- name: Location
+  icon: "fas fa-map-marker-alt"
+  url: "#"
+
+# custom buttons
+resourceLinks:
+- title: "Download CV (PDF)"
+  url: "files/resume.pdf"
+
+# keyword skills
+badges:
+- type: soft-skill-indicator
+  name: BIM Coordination
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Structural Engineering
+  percentage: 88
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Process Automation (Dynamo/Python)
+  percentage: 85
+  color: orange
+
+- type: soft-skill-indicator
+  name: Clash Detection
+  percentage: 90
+  color: green

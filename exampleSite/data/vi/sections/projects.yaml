@@ -1,0 +1,161 @@
+# section information
+section:
+  name: Dự án
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tất cả
+  filter: "all"
+- name: Chuyên nghiệp
+  filter: "professional"
+
+# your projects
+projects:
+- name: Nhà ga hàng không Changi
+  logo: fas fa-plane-departure
+  image: /images/sections/projects/changi-airport.png
+  role: Kỹ sư BIM (Kết cấu & MEP, Clash Detection)
+  timeline: "04/2025 - 02/2026"
+  clientPartner: "CÔNG TY TNHH CÔNG NGHIỆP TOÀN CẦU"
+  clientLogo: /images/sections/projects/atlas-logo.png
+  summary: |
+    **Dự án:** Chỉnh sửa và phát triển mô hình BIM Kết cấu và MEP cho hạng mục nhà ga hàng không Changi theo bộ hồ sơ thiết kế; triển khai bản vẽ kỹ thuật phục vụ thi công.
+
+    **Vai trò:** Phụ trách điều chỉnh mô hình Kết cấu & MEP, kiểm tra xung đột liên bộ môn và phối hợp kỹ thuật để đảm bảo tính đồng bộ khi phát hành bản vẽ.
+
+    **Công cụ & nền tảng:** Autodesk Revit, Navisworks Manage, Autodesk Construction Cloud.
+
+    **Kết quả:**
+    - Hoàn thiện mô hình BIM Kết cấu & MEP bám sát yêu cầu thiết kế và điều kiện triển khai thực tế.
+    - Phát hiện và xử lý xung đột Kết cấu - MEP trước giai đoạn thi công, giảm rủi ro phát sinh tại hiện trường.
+    - Triển khai bộ bản vẽ kỹ thuật từ mô hình, bảo đảm tính nhất quán giữa mô hình và hồ sơ phát hành.
+  tags: ["professional", "bim", "revit", "mep", "structure", "clash-detection", "airport"]
+
+- name: Cầu kết nối Lâu đài Công chúa Ngủ trong rừng (Disneyland)
+  logo: fas fa-archway
+  image: /images/sections/projects/disney-castle-bridge.jpg
+  role: Kỹ sư BIM (Biện pháp thi công, Mô hình hiện trạng Point Cloud)
+  timeline: "02/2025 - 03/2025"
+  clientPartner: "CÔNG TY TNHH PENROZ PHÁP VIỆT"
+  clientLogo: /images/sections/projects/penroz-logo.png
+  summary: |
+    **Dự án:** Đề xuất biện pháp thi công sửa chữa hạng mục cầu kết nối hiện trạng tại khu vực Lâu đài Công chúa Ngủ trong rừng (Disneyland); lập bản vẽ trình tự thi công phục vụ triển khai.
+
+    **Vai trò:** Phụ trách mô hình hóa hiện trạng từ dữ liệu Point Cloud, xây dựng phương án kỹ thuật và phát triển bộ bản vẽ trình tự thi công.
+
+    **Công cụ & nền tảng:** Autodesk Revit, Point Cloud.
+
+    **Kết quả:**
+    - Thiết lập mô hình hiện trạng có độ tin cậy cao từ dữ liệu quét, làm cơ sở cho phương án sửa chữa.
+    - Hoàn thiện bộ bản vẽ trình tự thi công theo từng bước, bảo đảm tính khả thi khi triển khai thực tế.
+    - Chuẩn hóa dữ liệu kỹ thuật giữa mô hình và hồ sơ phát hành, giảm sai khác trong quá trình phối hợp.
+  tags: ["professional", "bim", "revit", "point-cloud", "construction-method", "rehabilitation", "bridge"]
+
+- name: Sycamore CapitaLand (Bình Dương)
+  logo: fas fa-city
+  image: /images/sections/projects/sycamore.png
+  role: Kỹ sư BIM (Cảnh quan & Kết cấu, Shop Drawing & QTO)
+  timeline: "04/2024 - 12/2024"
+  clientPartner: "CÔNG TY CỔ PHẦN FECON SOUTH"
+  clientLogo: /images/sections/projects/fecon-logo.png
+  summary: |
+    **Dự án:** Triển khai mô hình BIM và hệ thống Shop Drawing cho hạng mục cảnh quan và cốt thép (Rebar) trong khu đô thị quy mô lớn của CapitaLand tại Bình Dương.
+
+    **Vai trò:** Phụ trách gói Cảnh quan & Kết cấu, phối hợp triển khai cùng đối tác FECON.
+
+    **Công cụ & nền tảng:** Autodesk Revit, Dynamo (tự động hóa), BIM QTO workflow.
+
+    **Kết quả:**
+    - Xây dựng thư viện Family cảnh quan tham số hóa, giúp tăng tốc độ dựng mô hình và chuẩn hóa dữ liệu BIM.
+    - Ứng dụng Dynamo để tự động hóa bố trí cốt thép và xuất Shop Drawing Rebar, giảm sai sót thủ công và tăng độ chính xác hồ sơ.
+    - Trích xuất khối lượng (QTO) chính xác từ BIM, phục vụ kiểm soát vật tư và công tác dự toán.
+  tags: ["professional", "bim", "revit", "dynamo", "landscape", "rebar"]
+
+- name: Nhà máy gia công gỗ
+  logo: fas fa-building
+  image: /images/sections/projects/myda.png
+  role: Kỹ sư BIM (Mô hình LOD300, biện pháp thi công & diễn họa 3D)
+  timeline: "01/2024 - 02/2024"
+  clientPartner: "CÔNG TY XÂY DỰNG MỸ ĐÀ"
+  clientLogo: /images/sections/projects/myda-logo.png
+  summary: |
+    **Dự án:** Mô hình 3D LOD300 và video diễn họa 3D biện pháp thi công phục vụ hồ sơ đấu thầu cho toàn bộ xưởng gia công gỗ.
+
+    **Vai trò:** Thực hiện mô hình nhà xưởng, triển khai bản vẽ biện pháp thi công, chia giai đoạn và diễn họa hình ảnh/video.
+
+    **Công cụ & nền tảng:** Autodesk Revit (LOD300), Adobe Illustrator (trình bày kỹ thuật), Adobe Premiere Pro (video biện pháp thi công).
+
+    **Kết quả:**
+    - Hoàn thiện mô hình LOD300 đồng bộ cho toàn bộ khu xưởng, phục vụ bóc tách và kiểm soát phương án thi công.
+    - Xây dựng bộ bản vẽ biện pháp thi công và chuỗi video diễn họa 3D, giúp hồ sơ thầu trực quan và thuyết phục hơn.
+    - Chuẩn hóa dữ liệu mô hình theo giai đoạn để đội thi công theo dõi trình tự thực hiện dễ dàng.
+  tags: ["professional", "bim", "revit", "construction-method", "3d-visualization"]
+
+- name: Dãy nhà liền kề
+  logo: fas fa-building
+  image: /images/sections/projects/nha-lien-ke.png
+  role: Kỹ sư BIM (Kết cấu & Rebar, Shop Drawing & QTO)
+  timeline: "08/2023 - 09/2023"
+  clientPartner: "CÔNG TY CỔ PHẦN XÂY DỰNG AN PHÚ GIA"
+  clientLogo: /images/sections/projects/apg-logo.jpg
+  summary: |
+    **Dự án:** Triển khai mô hình BIM và bản vẽ Shop Drawing cho hạng mục kết cấu của dãy nhà liền kề; đồng thời cập nhật hồ sơ hoàn công theo tiến độ thi công.
+
+    **Vai trò:** Phụ trách mô hình kết cấu & rebar, xuất khối lượng (QTO) và phối hợp đề xuất điều chỉnh kỹ thuật để đảm bảo tính khả thi thi công.
+
+    **Công cụ & nền tảng:** Autodesk Revit.
+
+    **Kết quả:**
+    - Hoàn thiện mô hình kết cấu và cốt thép đồng bộ, phục vụ triển khai Shop Drawing chính xác cho hiện trường.
+    - Trích xuất khối lượng từ mô hình BIM, phục vụ kiểm soát vật tư và lập kế hoạch thi công.
+    - Cập nhật hồ sơ hoàn công bám sát thực tế thi công, giúp chuẩn hóa dữ liệu bàn giao.
+  tags: ["professional", "bim", "revit", "shop-drawing", "qto", "rebar", "structure"]
+
+- name: The Grand Manhattan
+  logo: fas fa-city
+  image: /images/sections/projects/grand-manhattan-q1.png
+  role: Kỹ sư BIM (Kiến trúc, Kết cấu & Biện pháp thi công, Shop Drawing & QTO)
+  timeline: "07/2022 - 12/2022"
+  clientPartner: "CÔNG TY CỔ PHẦN ĐẦU TƯ XÂY DỰNG RICONS"
+  clientLogo: /images/sections/projects/ricons-logo.png
+  summary: |
+    **Dự án:** Triển khai mô hình 3D Kiến trúc, Kết cấu và Biện pháp thi công cho dự án The Grand Manhattan; đồng thời triển khai Shop Drawing hoàn thiện, thống kê khối lượng và cập nhật mô hình theo yêu cầu thực tế.
+
+    **Vai trò:** Phụ trách phát triển mô hình BIM đa bộ môn, kiểm soát xung đột, phối hợp xử lý kỹ thuật và xuất khối lượng (QTO) phục vụ triển khai thi công.
+
+    **Công cụ & nền tảng:** Autodesk Revit.
+
+    **Kết quả:**
+    - Hoàn thiện mô hình BIM kiến trúc & kết cấu đồng bộ, tăng hiệu quả phối hợp thiết kế - thi công.
+    - Kiểm soát và xử lý xung đột mô hình kịp thời, giảm rủi ro sai khác hồ sơ khi triển khai hiện trường.
+    - Triển khai Shop Drawing hoàn thiện và bảng khối lượng từ mô hình, tăng hiệu quả quản lý vật tư và tiến độ.
+  tags: ["professional", "bim", "revit", "architecture", "structure", "shop-drawing", "qto", "clash-detection"]
+
+# ===== Mẫu copy nhanh cho dự án mới (VI) =====
+# - name: Tên dự án
+#   logo: fas fa-building
+#   image: /images/sections/projects/ten-anh.png
+#   role: Vai trò của bạn
+#   timeline: "MM/YYYY - MM/YYYY"
+#   clientPartner: "Tên khách hàng"
+#   # clientLogo: /images/sections/projects/client-logo.png
+#   # repo: https://github.com/your/repo
+#   # url: https://du-an-cua-ban.vn
+#   summary: |
+#     **Dự án:** Mô tả ngắn phạm vi dự án.
+#
+#     **Vai trò:** Mô tả rõ phần bạn phụ trách.
+#
+#     **Công cụ & nền tảng:** BIM, Revit, Dynamo.
+#
+#     **Kết quả:**
+#     - Kết quả 1 (ưu tiên số liệu/KPI cụ thể).
+#     - Kết quả 2.
+#     - Kết quả 3.
+#   tags: ["professional", "bim"]

@@ -1,0 +1,48 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Professional experiences
+experiences:
+- company:
+    name: BUILDING INNOVATION MANAGEMENT TECHNOLOGY JOINT STOCK COMPANY (BIMTECH)
+    location: Ho Chi Minh City, Vietnam
+    logo: /images/sections/experiences/bimtech-logo.png
+    overview: BIM consulting and implementation company delivering model-based coordination, technical documentation, and digital workflows for construction projects.
+  positions:
+  - designation: BIM Specialist
+    start: May 2023
+    end: Mar 2026
+    responsibilities:
+    - Developed and updated multi-discipline BIM models based on issued design packages and execution requirements.
+    - Performed clash detection and interdisciplinary coordination to maintain consistency across technical deliverables.
+    - Produced model-based technical drawings and coordinated issuance with project teams.
+    - Managed model data on digital platforms to align model, drawings, and implementation progress.
+
+- company:
+    name: BIMLab - Ho Chi Minh City University of Technology
+    location: Ho Chi Minh City, Vietnam
+    logo: /images/sections/experiences/bimlab-logo.png
+    overview: BIM-focused training and applied practice environment connecting academic learning with project delivery standards.
+  positions:
+  - designation: BIM Specialist
+    start: Jul 2022
+    end: May 2023
+    responsibilities:
+    - Contributed to architectural and structural BIM modeling for practice projects.
+    - Standardized families, templates, and workflows to improve model consistency across teams.
+    - Coordinated model quality checks and deliverable reviews before internal handover.
+
+  - designation: Revit Architecture Mentor (Part-time)
+    start: Jun 2023
+    end: Jul 2025
+    responsibilities:
+    - Trained learners in Revit Architecture workflows from fundamentals to advanced modeling.
+    - Guided model organization, BIM data control, and technical documentation standards.
+    - Reviewed assignments and provided technical feedback to improve learner output quality.

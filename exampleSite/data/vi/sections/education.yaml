@@ -1,0 +1,37 @@
+# section information
+section:
+  name: Học vấn
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Thạc sĩ Kỹ thuật Xây dựng
+  icon: fa-graduation-cap
+  timeframe: 2023 - Hiện tại
+  institution:
+    name: Đại học Bách Khoa – ĐHQG TP.HCM (HCMUT)
+    url: "https://hcmut.edu.vn"
+    logo: /images/sections/education/hcmut-logo.png
+  customSections:
+  - name: Chuyên ngành
+    content: Kết cấu công trình
+  - name: Tình trạng
+    content: Đã bảo vệ Luận văn, dự kiến nhận bằng 11/2026
+  - name: Đề tài tốt nghiệp
+    content: "Phát triển hệ thống tích hợp SHM vào BIM: ứng dụng cho kết cấu sàn trong nhà cao tầng."
+
+- name: Cử nhân Xây dựng
+  icon: fa-university
+  timeframe: 2019 - 2023
+  institution:
+    name: Đại học Bách Khoa – ĐHQG TP.HCM (HCMUT)
+    url: "https://hcmut.edu.vn"
+    logo: /images/sections/education/hcmut-logo.png
+  customSections:
+  - name: Chuyên ngành
+    content: Kỹ thuật Xây dựng

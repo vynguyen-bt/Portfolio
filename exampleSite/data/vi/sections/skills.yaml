@@ -1,0 +1,82 @@
+# section information
+section:
+  name: Kỹ năng chuyên môn
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Tất cả
+  filter: "all"
+- name: Lập trình
+  filter: "programming"
+- name: Quy trình
+  filter: "workflow"
+- name: Dữ liệu
+  filter: "data"
+- name: Công cụ
+  filter: "tools"
+- name: Ngoại ngữ
+  filter: "languages"
+
+# Technical Skills
+skills:
+- name: Python
+  icon: fab fa-python
+  summary: "Viết script tự động hóa quy trình BIM trong Dynamo và xử lý dữ liệu nghiên cứu."
+  categories: ["programming", "data"]
+
+- name: C# / .NET
+  icon: fas fa-code
+  summary: "Phát triển Add-in tùy biến cho Autodesk Revit và Add-in cho Robot Structural Analysis (RSAP)."
+  categories: ["programming", "tools"]
+
+- name: Dynamo (Visual Programming)
+  icon: fas fa-project-diagram
+  summary: "Tối ưu hóa dựng hình và quản lý dữ liệu trong môi trường Revit bằng Visual Programming."
+  categories: ["programming", "workflow"]
+
+- name: CDE Workflow (ACC/BIM 360)
+  icon: fas fa-cloud
+  summary: "Triển khai và làm việc trên môi trường dữ liệu chung CDE, phối hợp đa bộ môn Arc-Struct-MEP."
+  categories: ["workflow", "tools"]
+
+- name: BIM Data Management
+  icon: fas fa-database
+  summary: "Quản lý tham số (Parameter Management) và tự động trích xuất khối lượng (QTO)."
+  categories: ["data"]
+
+- name: Excel / Google Sheets
+  icon: fas fa-table
+  summary: "Sử dụng Microsoft Excel (Advanced) và Google Sheets trong quản lý, điều phối dự án."
+  categories: ["data", "workflow"]
+
+- name: Autodesk Revit
+  icon: fas fa-cube
+  summary: "Mô hình hóa Revit cho Structure, Architecture và MEP."
+  categories: ["tools"]
+
+- name: Navisworks Manage
+  icon: fas fa-search
+  summary: "Điều phối mô hình, Clash Detection và mô phỏng tiến độ 4D."
+  categories: ["tools", "workflow"]
+
+- name: Phân tích kết cấu
+  icon: fas fa-building
+  summary: "Sử dụng Robot Structural Analysis (RSAP), ETABS, SAP2000 và SAFE cho phân tích kết cấu."
+  categories: ["tools"]
+
+- name: AutoCAD
+  icon: fas fa-drafting-compass
+  summary: "Sử dụng thành thạo AutoCAD trong triển khai bản vẽ kỹ thuật."
+  categories: ["tools"]
+
+- name: Tiếng Anh chuyên ngành
+  icon: fas fa-language
+  summary: "Đọc hiểu tài liệu kỹ thuật, tiêu chuẩn quốc tế và giao tiếp chuyên môn hiệu quả. TOEIC 680/990 | VSTEP Bậc 4."
+  categories: ["languages"]

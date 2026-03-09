@@ -1,0 +1,161 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+
+# your projects
+projects:
+- name: Changi Airport Terminal
+  logo: fas fa-plane-departure
+  image: /images/sections/projects/changi-airport.png
+  role: BIM Engineer (Structure & MEP, Clash Detection)
+  timeline: "04/2025 - 02/2026"
+  clientPartner: "ATLAS INDUSTRIES (VIETNAM) LIMITED"
+  clientLogo: /images/sections/projects/atlas-logo.png
+  summary: |
+    **Project:** Revised and developed structural and MEP BIM models for Changi Airport terminal scope based on issued design packages; produced technical drawings for construction execution.
+
+    **Role:** Responsible for structural and MEP model revisions, interdisciplinary clash checks, and technical coordination to maintain drawing-model consistency at issue stage.
+
+    **Technology:** Autodesk Revit, Navisworks Manage, Autodesk Construction Cloud.
+
+    **Outcomes:**
+    - Completed coordinated structural and MEP BIM models aligned with design requirements and field execution constraints.
+    - Identified and resolved structure-MEP clashes before construction stage, reducing site-level rework risk.
+    - Issued model-based technical drawing packages with consistent geometry and documentation outputs.
+  tags: ["professional", "bim", "revit", "mep", "structure", "clash-detection", "airport"]
+
+- name: Sleeping Beauty Castle Connector Bridge (Disneyland)
+  logo: fas fa-archway
+  image: /images/sections/projects/disney-castle-bridge.jpg
+  role: BIM Engineer (Construction Method, Existing Conditions Point Cloud)
+  timeline: "02/2025 - 03/2025"
+  clientPartner: "PENROZ FRANCE VIETNAM COMPANY LIMITED"
+  clientLogo: /images/sections/projects/penroz-logo.png
+  summary: |
+    **Project:** Developed a repair construction method proposal for the existing connector bridge at the Sleeping Beauty Castle zone (Disneyland); prepared step-by-step construction sequence drawings for execution.
+
+    **Role:** Responsible for existing-condition modeling from point cloud data, technical method development, and production of construction sequence drawing packages.
+
+    **Technology:** Autodesk Revit, Point Cloud.
+
+    **Outcomes:**
+    - Built a reliable existing-condition model from scan data as the technical baseline for repair strategy.
+    - Delivered staged construction sequence drawings with clear execution logic for field implementation.
+    - Standardized technical data across model and issued documents, reducing coordination mismatches.
+  tags: ["professional", "bim", "revit", "point-cloud", "construction-method", "rehabilitation", "bridge"]
+
+- name: Sycamore CapitaLand (Binh Duong)
+  logo: fas fa-city
+  image: /images/sections/projects/sycamore.png
+  role: BIM Engineer (Landscape & Structure, Shop Drawing & QTO)
+  timeline: "04/2024 - 12/2024"
+  clientPartner: "FECON SOUTH JOINT STOCK COMPANY"
+  clientLogo: /images/sections/projects/fecon-logo.png
+  summary: |
+    **Project:** Delivered BIM modeling and Shop Drawing documentation for landscape architecture and rebar scope in CapitaLand's large-scale urban development in Binh Duong.
+
+    **Role:** Led Landscape & Structure BIM package coordination with FECON.
+
+    **Technology:** Revit, Dynamo.
+
+    **Outcomes:**
+    - Developed a parametric landscape family library to accelerate model delivery and standardize BIM data.
+    - Applied Dynamo to automate rebar placement and rebar Shop Drawing outputs, reducing manual errors and improving documentation accuracy.
+    - Extracted accurate BIM-based quantities (QTO) to support material control and cost estimation workflows.
+  tags: ["professional", "bim", "revit", "dynamo", "landscape", "rebar"]
+
+- name: Wood Processing Factory
+  logo: fas fa-building
+  image: /images/sections/projects/myda.png
+  role: BIM Modeling and Phase Planning
+  timeline: "01/2024 - 02/2024"
+  clientPartner: "MY DA CONSTRUCTION COMPANY LIMITED"
+  clientLogo: /images/sections/projects/myda-logo.png
+  summary: |
+    **Project:** Developed a LOD300 3D model and 3D construction method visualization video to support bidding documentation for the full wood-processing workshop complex.
+
+    **Role:** Delivered workshop BIM modeling, construction method drawings, phase planning, and image/video rendering.
+
+    **Technology:** Revit, Adobe Illustrator, Adobe Premiere.
+
+    **Outcomes:**
+    - Completed an integrated LOD300 model package for the full workshop area to support planning and coordination.
+    - Produced construction method drawing sets and 3D visualization videos to improve bid presentation clarity.
+    - Structured model data by phase to help site teams follow execution sequence more effectively.
+  tags: ["professional", "bim", "revit", "construction-method", "3d-visualization"]
+
+- name: Townhouse Row
+  logo: fas fa-building
+  image: /images/sections/projects/nha-lien-ke.png
+  role: BIM Engineer (Structure & Rebar, Shop Drawing & QTO)
+  timeline: "08/2023 - 09/2023"
+  clientPartner: "AN PHU GIA CONSTRUCTION JOINT STOCK COMPANY"
+  clientLogo: /images/sections/projects/apg-logo.jpg
+  summary: |
+    **Project:** Delivered BIM modeling and Shop Drawing documentation for the structural scope of a townhouse row; also updated as-built documentation based on site progress.
+
+    **Role:** Responsible for structure & rebar modeling, quantity take-off (QTO), and proposing technical adjustments to improve constructability.
+
+    **Technology:** Autodesk Revit.
+
+    **Outcomes:**
+    - Completed coordinated structural and rebar models to support accurate Shop Drawing issuance for site execution.
+    - Extracted BIM-based quantities to improve material control and construction planning.
+    - Updated as-built documentation aligned with actual site conditions, supporting standardized handover data.
+  tags: ["professional", "bim", "revit", "shop-drawing", "qto", "rebar", "structure"]
+
+- name: The Grand Manhattan
+  logo: fas fa-city
+  image: /images/sections/projects/grand-manhattan-q1.png
+  role: BIM Engineer (Architecture, Structure & Construction Method, Shop Drawing & QTO)
+  timeline: "07/2022 - 12/2022"
+  clientPartner: "RICONS CONSTRUCTION INVESTMENT JOINT STOCK COMPANY"
+  clientLogo: /images/sections/projects/ricons-logo.png
+  summary: |
+    **Project:** Delivered 3D BIM models for architecture, structure, and construction method planning for The Grand Manhattan; also developed finishing Shop Drawings, quantity schedules, and model updates based on project requirements.
+
+    **Role:** Responsible for multi-discipline BIM model development, clash control, technical coordination, and quantity take-off (QTO) to support construction execution.
+
+    **Technology:** Autodesk Revit.
+
+    **Outcomes:**
+    - Completed coordinated architectural and structural BIM models to improve design-to-construction collaboration.
+    - Controlled and resolved model clashes in a timely manner, reducing drawing mismatch risks during site execution.
+    - Delivered finishing Shop Drawings and model-based quantity schedules, supporting better material and progress management.
+  tags: ["professional", "bim", "revit", "architecture", "structure", "shop-drawing", "qto", "clash-detection"]
+
+# ===== Quick copy template for new project (EN) =====
+# - name: Project name
+#   logo: fas fa-building
+#   image: /images/sections/projects/project-image.png
+#   role: Your role
+#   timeline: "MM/YYYY - MM/YYYY"
+#   clientPartner: "Client"
+#   # clientLogo: /images/sections/projects/client-logo.png
+#   # repo: https://github.com/your/repo
+#   # url: https://your-project-url.com
+#   summary: |
+#     **Project:** Brief project scope.
+#
+#     **Role:** Your responsibility scope.
+#
+#     **Technology:** BIM, Revit, Dynamo.
+#
+#     **Outcomes:**
+#     - Outcome 1 (prefer quantified KPI).
+#     - Outcome 2.
+#     - Outcome 3.
+#   tags: ["professional", "bim"]

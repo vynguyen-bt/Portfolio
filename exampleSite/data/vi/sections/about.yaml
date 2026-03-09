@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Giới thiệu
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: BIM Coordinator | Structural BIM Engineer | BIM Specialist
+
+# a summary about you
+summary: "Tôi là Kỹ sư Thạc sĩ Kết cấu công trình với hơn 3 năm kinh nghiệm về giải pháp BIM. Thế mạnh của tôi là xây dựng mô hình thông minh và tự động hóa quy trình nhằm tối ưu hóa hiệu quả thiết kế, vận hành và giải quyết các bài toán kỹ thuật phức tạp."
+
+# your social links
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:ng.trieuvy1308@gmail.com"
+
+- name: Phone
+  icon: "fas fa-phone"
+  url: "tel:0794396293"
+
+- name: Location
+  icon: "fas fa-map-marker-alt"
+  url: "#"
+
+# custom buttons
+resourceLinks:
+- title: "Tải CV (PDF)"
+  url: "files/resume.pdf"
+
+# keyword skills
+badges:
+- type: soft-skill-indicator
+  name: Điều phối BIM
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Thiết kế kết cấu
+  percentage: 88
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Tự động hóa quy trình (Dynamo/Python)
+  percentage: 85
+  color: orange
+
+- type: soft-skill-indicator
+  name: Phát hiện & xử lý xung đột
+  percentage: 90
+  color: green
