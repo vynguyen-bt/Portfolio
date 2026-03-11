@@ -36,11 +36,6 @@ skills:
   summary: "Phát triển Add-in tùy biến cho Autodesk Revit và Add-in cho Robot Structural Analysis (RSAP)."
   categories: ["programming", "tools"]
 
-- name: Dynamo (Visual Programming)
-  icon: fas fa-project-diagram
-  summary: "Tối ưu hóa dựng hình và quản lý dữ liệu trong môi trường Revit bằng Visual Programming."
-  categories: ["programming", "workflow"]
-
 - name: CDE Workflow (ACC/BIM 360)
   icon: fas fa-cloud
   summary: "Triển khai và làm việc trên môi trường dữ liệu chung CDE, phối hợp đa bộ môn Arc-Struct-MEP."
@@ -50,11 +45,6 @@ skills:
   icon: fas fa-database
   summary: "Quản lý tham số (Parameter Management) và tự động trích xuất khối lượng (QTO)."
   categories: ["data"]
-
-- name: Excel / Google Sheets
-  icon: fas fa-table
-  summary: "Sử dụng Microsoft Excel (Advanced) và Google Sheets trong quản lý, điều phối dự án."
-  categories: ["data", "workflow"]
 
 - name: Autodesk Revit
   icon: fas fa-cube

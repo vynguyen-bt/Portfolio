@@ -7,6 +7,8 @@ section:
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
+  # Optional: Filterizr layout ('sameWidth', 'sameHeight', 'sameSize')
+  # layout: sameHeight
 
 # filter buttons
 buttons:
@@ -17,24 +19,21 @@ buttons:
 
 # your projects
 projects:
-- name: Changi Airport Terminal
+- name: Changi Airport Terminal (Singapore)
   logo: fas fa-plane-departure
   image: /images/sections/projects/changi-airport.png
-  role: BIM Engineer (Structure & MEP, Clash Detection)
+  role: BIM Coordinator (Structure & MEP)
   timeline: "04/2025 - 02/2026"
   clientPartner: "ATLAS INDUSTRIES (VIETNAM) LIMITED"
-  clientLogo: /images/sections/projects/atlas-logo.png
+  clientLogo: /images/atlas logo.png
   summary: |
-    **Project:** Revised and developed structural and MEP BIM models for Changi Airport terminal scope based on issued design packages; produced technical drawings for construction execution.
+    **Short description:**
+    Refined BIM models and produced shop drawings for structural and MEP scopes to Singapore standards.
 
-    **Role:** Responsible for structural and MEP model revisions, interdisciplinary clash checks, and technical coordination to maintain drawing-model consistency at issue stage.
-
-    **Technology:** Autodesk Revit, Navisworks Manage, Autodesk Construction Cloud.
-
-    **Outcomes:**
-    - Completed coordinated structural and MEP BIM models aligned with design requirements and field execution constraints.
-    - Identified and resolved structure-MEP clashes before construction stage, reducing site-level rework risk.
-    - Issued model-based technical drawing packages with consistent geometry and documentation outputs.
+    **Key outcomes:**
+    - **Multi-discipline coordination:** Resolved structural-MEP clashes (Clash Detection) and optimized equipment installation space.
+    - **Consistency:** Ensured 100% alignment between the 3D model and issued drawing packages (Drawing Production).
+    - **Data management:** Managed information exchange workflows on Autodesk Construction Cloud (ACC).
   tags: ["professional", "bim", "revit", "mep", "structure", "clash-detection", "airport"]
 
 - name: Sleeping Beauty Castle Connector Bridge (Disneyland)
@@ -45,96 +44,81 @@ projects:
   clientPartner: "PENROZ FRANCE VIETNAM COMPANY LIMITED"
   clientLogo: /images/sections/projects/penroz-logo.png
   summary: |
-    **Project:** Developed a repair construction method proposal for the existing connector bridge at the Sleeping Beauty Castle zone (Disneyland); prepared step-by-step construction sequence drawings for execution.
+    **Short description:**
+    Built existing-condition models from laser scan data (Point Cloud) and developed repair construction sequence drawings for the connector bridge scope.
 
-    **Role:** Responsible for existing-condition modeling from point cloud data, technical method development, and production of construction sequence drawing packages.
-
-    **Technology:** Autodesk Revit, Point Cloud.
-
-    **Outcomes:**
-    - Built a reliable existing-condition model from scan data as the technical baseline for repair strategy.
-    - Delivered staged construction sequence drawings with clear execution logic for field implementation.
-    - Standardized technical data across model and issued documents, reducing coordination mismatches.
+    **Key outcomes:**
+    - **Scan-to-BIM:** Converted Point Cloud data into a high-accuracy 3D model, providing a reliable baseline for repair design.
+    - **4D Simulation:** Produced detailed, phased construction sequence drawings to ensure feasibility and absolute on-site safety.
+    - **Documentation alignment:** Synchronized technical data between the as-built model and issued packages, eliminating coordination discrepancies.
   tags: ["professional", "bim", "revit", "point-cloud", "construction-method", "rehabilitation", "bridge"]
 
 - name: Sycamore CapitaLand (Binh Duong)
   logo: fas fa-city
   image: /images/sections/projects/sycamore.png
-  role: BIM Engineer (Landscape & Structure, Shop Drawing & QTO)
+  role: BIM Engineer (Landscape & Structure)
   timeline: "04/2024 - 12/2024"
   clientPartner: "FECON SOUTH JOINT STOCK COMPANY"
   clientLogo: /images/sections/projects/fecon-logo.png
   summary: |
-    **Project:** Delivered BIM modeling and Shop Drawing documentation for landscape architecture and rebar scope in CapitaLand's large-scale urban development in Binh Duong.
+    **Short description:**
+    Delivered BIM modeling and Shop Drawings for landscape and rebar scope in CapitaLand's large-scale urban development in Binh Duong.
 
-    **Role:** Led Landscape & Structure BIM package coordination with FECON.
-
-    **Technology:** Revit, Dynamo.
-
-    **Outcomes:**
-    - Developed a parametric landscape family library to accelerate model delivery and standardize BIM data.
-    - Applied Dynamo to automate rebar placement and rebar Shop Drawing outputs, reducing manual errors and improving documentation accuracy.
-    - Extracted accurate BIM-based quantities (QTO) to support material control and cost estimation workflows.
+    **Key outcomes:**
+    - **Parametric design:** Built a smart landscape family library to standardize data and boost modeling speed by 30%.
+    - **Rebar automation:** Used **Dynamo** to automate rebar layout and **Shop Drawings**, eliminating manual errors and ensuring high-accuracy fabrication documents.
+    - **BIM QTO:** Set up automated quantity takeoff from the model to support material control and cost optimization.
   tags: ["professional", "bim", "revit", "dynamo", "landscape", "rebar"]
 
 - name: Wood Processing Factory
   logo: fas fa-building
   image: /images/sections/projects/myda.png
-  role: BIM Modeling and Phase Planning
+  role: BIM Engineer (LOD 300 & Construction Animation)
   timeline: "01/2024 - 02/2024"
   clientPartner: "MY DA CONSTRUCTION COMPANY LIMITED"
   clientLogo: /images/sections/projects/myda-logo.png
   summary: |
-    **Project:** Developed a LOD300 3D model and 3D construction method visualization video to support bidding documentation for the full wood-processing workshop complex.
+    **Short description:**
+    Built the LOD 300 BIM model and produced 3D construction method animation to support the bidding package for the wood processing factory.
 
-    **Role:** Delivered workshop BIM modeling, construction method drawings, phase planning, and image/video rendering.
-
-    **Technology:** Revit, Adobe Illustrator, Adobe Premiere.
-
-    **Outcomes:**
-    - Completed an integrated LOD300 model package for the full workshop area to support planning and coordination.
-    - Produced construction method drawing sets and 3D visualization videos to improve bid presentation clarity.
-    - Structured model data by phase to help site teams follow execution sequence more effectively.
+    **Key outcomes:**
+    - **LOD 300 modeling:** Completed a high-detail structural model (Level of Development 300) to support quantity takeoff and accurate construction planning.
+    - **Construction visualization:** Produced a vivid 3D construction sequence animation, making the bid package more persuasive and easier for stakeholders to grasp.
+    - **Technical presentation:** Used Adobe Illustrator to standardize method drawings by phase, helping site teams track execution steps clearly.
   tags: ["professional", "bim", "revit", "construction-method", "3d-visualization"]
 
 - name: Townhouse Row
   logo: fas fa-building
   image: /images/sections/projects/nha-lien-ke.png
-  role: BIM Engineer (Structure & Rebar, Shop Drawing & QTO)
+  role: BIM Engineer (Structure & Rebar Specialist)
   timeline: "08/2023 - 09/2023"
   clientPartner: "AN PHU GIA CONSTRUCTION JOINT STOCK COMPANY"
   clientLogo: /images/sections/projects/apg-logo.jpg
   summary: |
-    **Project:** Delivered BIM modeling and Shop Drawing documentation for the structural scope of a townhouse row; also updated as-built documentation based on site progress.
+    **Short description:**
+    Delivered BIM structural modeling, detailed rebar, and as-built documentation for a townhouse row project.
 
-    **Role:** Responsible for structure & rebar modeling, quantity take-off (QTO), and proposing technical adjustments to improve constructability.
-
-    **Technology:** Autodesk Revit.
-
-    **Outcomes:**
-    - Completed coordinated structural and rebar models to support accurate Shop Drawing issuance for site execution.
-    - Extracted BIM-based quantities to improve material control and construction planning.
-    - Updated as-built documentation aligned with actual site conditions, supporting standardized handover data.
+    **Key outcomes:**
+    - **Rebar detailing:** Produced high-detail 3D rebar models to generate accurate **Shop Drawings** and reduce steel waste on site.
+    - **As-built digitization:** Updated BIM models to match site conditions, standardizing handover data for owner operations.
+    - **Quantity control:** Automated QTO schedules to align material procurement with the actual construction sequence.
   tags: ["professional", "bim", "revit", "shop-drawing", "qto", "rebar", "structure"]
 
 - name: The Grand Manhattan
   logo: fas fa-city
   image: /images/sections/projects/grand-manhattan-q1.png
-  role: BIM Engineer (Architecture, Structure & Construction Method, Shop Drawing & QTO)
+  role: BIM Engineer (Architecture, Structure & Construction Method)
   timeline: "07/2022 - 12/2022"
   clientPartner: "RICONS CONSTRUCTION INVESTMENT JOINT STOCK COMPANY"
   clientLogo: /images/sections/projects/ricons-logo.png
   summary: |
-    **Project:** Delivered 3D BIM models for architecture, structure, and construction method planning for The Grand Manhattan; also developed finishing Shop Drawings, quantity schedules, and model updates based on project requirements.
+    **Short description:**
+    Delivered multi-discipline BIM modeling (architecture and structure) and construction method simulation for the high-end The Grand Manhattan development in central Ho Chi Minh City.
 
-    **Role:** Responsible for multi-discipline BIM model development, clash control, technical coordination, and quantity take-off (QTO) to support construction execution.
-
-    **Technology:** Autodesk Revit.
-
-    **Outcomes:**
-    - Completed coordinated architectural and structural BIM models to improve design-to-construction collaboration.
-    - Controlled and resolved model clashes in a timely manner, reducing drawing mismatch risks during site execution.
-    - Delivered finishing Shop Drawings and model-based quantity schedules, supporting better material and progress management.
+    **Key outcomes:**
+    - **Design-construction coordination:** Built a coordinated BIM model to enable Clash Detection and resolve technical conflicts before site execution.
+    - **Shop Drawings optimization:** Produced complete **Shop Drawings** and model-based QTO schedules, boosting material management efficiency by 20%.
+    - **Construction method simulation:** Developed visual construction method models to support schedule control and safety planning.
   tags: ["professional", "bim", "revit", "architecture", "structure", "shop-drawing", "qto", "clash-detection"]
 
 # ===== Quick copy template for new project (EN) =====

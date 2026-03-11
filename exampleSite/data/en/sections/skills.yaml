@@ -36,11 +36,6 @@ skills:
   summary: "Develop custom add-ins for Autodesk Revit and Robot Structural Analysis (RSAP)."
   categories: ["programming", "tools"]
 
-- name: Dynamo (Visual Programming)
-  icon: fas fa-project-diagram
-  summary: "Use Dynamo in Revit to optimize model creation and data management."
-  categories: ["programming", "workflow"]
-
 - name: CDE Workflow (ACC/BIM 360)
   icon: fas fa-cloud
   summary: "Implement and work in Common Data Environment (CDE) with multidisciplinary coordination (Architecture-Structure-MEP)."
@@ -50,11 +45,6 @@ skills:
   icon: fas fa-database
   summary: "Perform parameter management and automate quantity takeoff (QTO) extraction."
   categories: ["data"]
-
-- name: Excel / Google Sheets
-  icon: fas fa-table
-  summary: "Use Microsoft Excel (Advanced) and Google Sheets for project management and coordination."
-  categories: ["data", "workflow"]
 
 - name: Autodesk Revit
   icon: fas fa-cube

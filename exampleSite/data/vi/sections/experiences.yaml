@@ -11,12 +11,12 @@ section:
 # Kinh nghiệm làm việc
 experiences:
 - company:
-    name: Công ty Cổ phần Đổi mới Quản lý Công nghệ Xây dựng (BIMTECH)
+    name: Công ty Cổ phần Đổi mới Quản lý Công nghệ Xây dựng (BIMTech)
     location: Thành phố Hồ Chí Minh, Việt Nam
     logo: /images/sections/experiences/bimtech-logo.png
     overview: BIMTech là đơn vị tiên phong cung cấp giải pháp công nghệ xây dựng, chuyên sâu về Mô hình Thông tin Công trình (BIM) và các công cụ số đổi mới cho ngành xây dựng. Đội ngũ chuyên gia của công ty kết hợp nền tảng kỹ thuật với kinh nghiệm thực tiễn để cung cấp dịch vụ chất lượng cao, góp phần thay đổi cách công trình được thiết kế, thi công và vận hành.
   positions:
-  - designation: BIM Specialist
+  - designation: Chuyên viên BIM
     start: Tháng 5/2023
     end: Tháng 3/2026
     responsibilities:
@@ -31,7 +31,7 @@ experiences:
     logo: /images/sections/experiences/bimlab-logo.png
     overview: Môi trường đào tạo và ứng dụng BIM, kết nối giữa học thuật và thực tiễn triển khai dự án, tập trung vào năng lực mô hình hóa, phối hợp liên bộ môn và tiêu chuẩn triển khai BIM.
   positions:
-  - designation: BIM Specialist
+  - designation: Chuyên viên BIM
     start: Tháng 7/2022
     end: Tháng 5/2023
     responsibilities:

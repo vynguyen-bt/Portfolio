@@ -1,11 +1,6 @@
 # Copyright Notice
 copyright: © 2020 Copyright.
 
-# A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
-disclaimer: "Giao diện này được phát hành theo giấy phép MIT. Bạn có thể sử dụng cho mục đích cá nhân hoặc thương mại.
-Bạn được phép chỉnh sửa và phân phối mà không cần xin phép tác giả.
-Tuy nhiên, tác giả không cung cấp bảo hành và không chịu trách nhiệm cho các vấn đề phát sinh khi sử dụng."
-
 # Meta description for your site. This will help the search engines to find your site.
 description: Hồ sơ năng lực của Nguyễn Triệu Vỹ - BIM Coordinator, Structural BIM Engineer, BIM Specialist.
 
